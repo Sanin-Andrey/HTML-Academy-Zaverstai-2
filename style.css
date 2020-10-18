@@ -807,6 +807,7 @@ text-decoration: none;
     background-image: url("img/like 1.png");
     background-repeat: no-repeat;
     flex-wrap: wrap;
+    margin: 0 auto 0 0;
 }
 
 .likes:hover {
@@ -912,6 +913,7 @@ article h2 {
     border-radius: 10px;
     overflow-y:auto;
     overflow-x:hidden;
+    margin: 0 auto;
 
 }
 
