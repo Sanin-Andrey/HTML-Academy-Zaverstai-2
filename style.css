@@ -441,21 +441,21 @@ margin-bottom:3.2%;
     background-image: url("img/Blog.jpg"); 
     align-content: space-between;  
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-    width: 100%;
+    width: 95%;
 }
 
 .kiss {
     background-image: url("img/kiss.png");
-    align-content: space-between;
+    align-content: space-between;  
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-    width: 100%;
+    width: 95%;
 }
     
 .tl {
         background-image: url("img/tl.png");
-        justify-content: space-between; 
+        align-content: space-between;  
         filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-        width: 100%;
+        width: 95%;
 }
 
 .glava {
@@ -466,7 +466,7 @@ margin-bottom:3.2%;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-
+    width: 95%;
     color: #2E2F22;
 }
 
@@ -480,8 +480,9 @@ margin-bottom:3.2%;
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-
+    width: 95%;
     color: #2E2F22;
+    margin: auto;
 }
 
 .statya {
@@ -492,8 +493,9 @@ margin-bottom:3.2%;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-
+    width: 95%;
     color: #2E2F22;
+    margin: auto;
 }
 
 .kiss p {
