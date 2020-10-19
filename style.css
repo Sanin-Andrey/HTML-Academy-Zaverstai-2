@@ -425,15 +425,14 @@ margin-bottom:3.2%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
     align-items: center;
-
 }
 
 .portfolio-block div{
-  width:387px;
+  width: 387px;
   height: 525px;
   list-style: none;
+  background-repeat: no-repeat;
   margin: 10px;
 }
 
@@ -540,6 +539,7 @@ margin-bottom:3.2%;
     max-width: 996px;
     width: 100%;
     margin-top: 7.1%;
+    margin: 0 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1012,9 +1012,7 @@ article h2 {
 
     width: 406px;
     height: 208px;
-    align-self: flex-end;
     margin-top: 3%;
-    
     resize: none;
 
     border: 1px solid #2E2F22;
@@ -1122,7 +1120,7 @@ article h2 {
     .social {
         display: flex;
         justify-content: center;
-        max-width: 631px;
+        max-width: 712px;
         width: 100%;
         flex-wrap: wrap;
         margin-top: 4.5%;
@@ -1149,6 +1147,7 @@ article h2 {
     
     .social-li {
         list-style: none;
+        margin: 0 41px;
     }
     
     /* up button */
@@ -1192,3 +1191,21 @@ article h2 {
 ::-webkit-scrollbar-thumb { height: 100px; background-color: #666; border-radius: 3px;}
 ::-webkit-scrollbar-corner { background-color: #999;}}
 ::-webkit-resizer { background-color: #666;}
+
+
+::-moz-scrollbar { width: 15px; height: 40px;}
+::-moz-scrollbar-button {  background-color: #666; }
+::-moz-scrollbar-track {  background-color: #999;}
+::-moz-scrollbar-track-piece { background-color: #ffffff;}
+::-moz-scrollbar-thumb { height: 100px; background-color: #666; border-radius: 3px;}
+::-moz-scrollbar-corner { background-color: #999;}}
+::-moz-resizer { background-color: #666;}
+
+
+::-ms-scrollbar { width: 15px; height: 40px;}
+::-ms-scrollbar-button {  background-color: #666; }
+::-ms-scrollbar-track {  background-color: #999;}
+::-ms-scrollbar-track-piece { background-color: #ffffff;}
+::-ms-scrollbar-thumb { height: 100px; background-color: #666; border-radius: 3px;}
+::-ms-scrollbar-corner { background-color: #999;}}
+::-ms-resizer { background-color: #666;}
